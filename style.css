@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "CaviarDreams";
+    src: url("./css/fonts/CaviarDreams.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    background-color: #00dcf2;
+    color: #000000;
+    font-family: CaviarDreams;
+    font-size: 80px;
+
+
+    cursor: pointer;
+    border: none;
+
+    width: 60%;
+    height: 20%;
+
+    position: relative;
+    top: 500px;
+    right: 20px;
+}
+
+.button:hover{
+    background-color: #87e3f7;
+    transition: 0.5s;
+}
+
+.button:active {
+    transition: 0.1s;
+    background-color: #00788e;
+    box-shadow: 0 5px #666;
+    transform: translateY(6px);
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    transition: 0.5s;
+}

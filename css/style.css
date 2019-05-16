@@ -1,0 +1,39 @@
+
+@font-face {
+   font-family: aeriesFont;
+   src: url(sansation_light.woff);
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.button {
+  background-color: #00dcf2;
+  color: #000000;
+  font-family: aeriesFont;
+  font-size: 80px;
+
+  transition: all 0.5s;
+  cursor: pointer;
+  border: none;
+
+  width: 60%;
+  height: 20%;
+
+  position: relative;
+  top: 100px;
+  right: 20px;
+}
+
+.button:hover{
+    background-color: #87e3f7;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
